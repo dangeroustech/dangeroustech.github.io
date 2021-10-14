@@ -31,7 +31,7 @@ jobs:
         run: tree && rm -rf public
 
       - name: Build
-        run: hugo --config config/config.toml --theme PaperMod
+        run: hugo --theme PaperMod
 
       - name: Create cname file
         run: echo 'josh.services' > public/CNAME
