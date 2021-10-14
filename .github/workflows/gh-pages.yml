@@ -29,7 +29,7 @@ jobs:
 
       # Step 3 - Clean and don't fail
       - name: Clean public directory
-        run: rm -rf public
+        run: ls -lah && rm -rf public
 
       # Step 4 - Builds the site using the latest version of Hugo
       # Also specifies the theme we want to use
