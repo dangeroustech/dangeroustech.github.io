@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://new.dangerous.tech/archives/</loc>
+    <loc>http://josh.services/archive/</loc>
   </url><url>
-    <loc>http://new.dangerous.tech/categories/</loc>
+    <loc>http://josh.services/categories/</loc>
   </url><url>
-    <loc>http://new.dangerous.tech/</loc>
+    <loc>http://josh.services/</loc>
   </url><url>
-    <loc>http://new.dangerous.tech/tags/</loc>
+    <loc>http://josh.services/tags/</loc>
   </url>
 </urlset>
