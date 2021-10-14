@@ -169,5 +169,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>containers</title>
+      <link>https://josh.services/tags/containers/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/containers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote</title>
+      <link>https://josh.services/tags/remote/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/remote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vs code</title>
+      <link>https://josh.services/tags/vs-code/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/vs-code/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

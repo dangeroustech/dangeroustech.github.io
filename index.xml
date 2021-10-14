@@ -70,6 +70,15 @@
       <description>Sign your git commits by default</description>
     </item>
     
+    <item>
+      <title>Remote Development with VS Code</title>
+      <link>https://josh.services/posts/20200508/remotedeveopmentwithvscode/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/posts/20200508/remotedeveopmentwithvscode/</guid>
+      <description>Neat new VS Code development opportunities!</description>
+    </item>
+    
     
     
   </channel>
