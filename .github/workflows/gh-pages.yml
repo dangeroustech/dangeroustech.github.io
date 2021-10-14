@@ -23,7 +23,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Clean public directory
-        run: tree && rm -rf public
+        run: rm -rf public
 
       - name: Build
         run: hugo --config config/config.toml --theme PaperMod
