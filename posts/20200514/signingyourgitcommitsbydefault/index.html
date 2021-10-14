@@ -46,8 +46,8 @@ if (!doNotTrack) {
 <meta property="og:description" content="Sign your git commits by default" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://josh.services/posts/20200514/signingyourgitcommitsbydefault/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-05-17T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-05-17T00:00:00&#43;00:00" /><meta property="og:site_name" content="Dangerous.Tech" />
+<meta property="article:published_time" content="2020-05-14T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2020-05-14T00:00:00&#43;00:00" /><meta property="og:site_name" content="Dangerous.Tech" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Signing Your Git Commits by Default"/>
@@ -87,8 +87,8 @@ if (!doNotTrack) {
   "articleBody": "Managing .gitignore For Fun And Profit You know when you see that little green ‘Verified’ badge next to your commits on GitHub? The one that makes it feel all official? Notice how when you commit and push from the commandline you don’t get that? If you’ve ever wondered why, this post is for you! Also if you realise that signing your commits is a good idea generally because somethine something security… It works for you too.\nPrerequisites  gpg installed on the system you’re setting up commit signing from (gpg --version or gpg2 --version to verify) The ability to reach GitHub. This can be from the same machine, or you can be SSHed in, you’ll need to copy an exported key from the commandline to a browser window and you don’t want to type it all out…  1 - Generate the Key Run gpg --full-generate-key to kick off the process. Make sure that you make your key 4096 bits, GitHub won’t accept anything less. (I believe that all gpg commands can be substituted for gpg2 from this point onwards but I haven’t fully tested that so YMMV)\n2 - Export the Key Now we need to export the key in a format that we can give to GitHub.\ngpg --list-secret-keys --keyid-format LONG will give you a list of your secret keys, copy the ID in the same place as the red box in the screenshot and run the gpg --armor --export YOURIDHERE to get the GitHubbable part. Copy this key, all the way from -----BEGIN PGP PUBLIC KEY BLOCK----- to -----END PGP PUBLIC KEY BLOCK-----\n3 - Upload Key to GitHub This is assuming that you’re using GitHub here, you would have to upload this in basically the same format to BitBucket or wherever else.\nHead to https://github.com/settings/keys and locate the GPG keys section. Click New GPG key.\nPaste in the exported key from the previous command into the box and click Add GPG key once again.\nVerify that the key is now showing in the GPG keys list and has the correct email address associated with it.\n4 - Complete Git Config Check that you don’t already have a .gitconfig file using cat. If you do, you can probably skip some of these config steps. The last 2 are the key ones here. Use the same Key ID and for the signing key that you used in the export command from step 2.\ngit config --global user.name \"your name\" git config --global user.email your@email.address git config --global user.signingkey YOURIDHERE git config --global commit.gpgsign true 5 - Do All The git Things Commit, Commit, Commit! You can verify the commit using the git verify-commit commitid\n",
   "wordCount" : "444",
   "inLanguage": "en",
-  "datePublished": "2021-05-17T00:00:00Z",
-  "dateModified": "2021-05-17T00:00:00Z",
+  "datePublished": "2020-05-14T00:00:00Z",
+  "dateModified": "2020-05-14T00:00:00Z",
   "author":{
     "@type": "Person",
     "name": "Josh J"
@@ -179,7 +179,7 @@ if (!doNotTrack) {
     <div class="post-description">
       Sign your git commits by default
     </div>
-    <div class="post-meta">May 17, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Josh J
+    <div class="post-meta">May 14, 2020&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Josh J
 </div>
   </header> <div class="toc">
     <details >
@@ -263,15 +263,10 @@ git config --global commit.gpgsign true
       <li><a href="https://josh.services/tags/gitops/">gitops</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://josh.services/posts/20210517/learningtoloveyaml_converitngyourtraefiksetupfromcmdlinetoyaml/">
+  <a class="prev" href="https://josh.services/posts/20200525/runatloginwithi3/">
     <span class="title">« Prev Page</span>
     <br>
-    <span>Learning to Love YAML - Converting Your Traefik Setup From Cmdline into YAML</span>
-  </a>
-  <a class="next" href="https://josh.services/posts/20200615/updatejenkinswithhttpsinadockercontainer/">
-    <span class="title">Next Page »</span>
-    <br>
-    <span>UPDATE: Jenkins with HTTPS in a Docker Container</span>
+    <span>Running a Script at Login with i3</span>
   </a>
 </nav>
 

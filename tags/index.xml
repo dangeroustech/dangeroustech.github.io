@@ -44,33 +44,6 @@
     </item>
     
     <item>
-      <title>git</title>
-      <link>https://josh.services/tags/git/</link>
-      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://josh.services/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gitops</title>
-      <link>https://josh.services/tags/gitops/</link>
-      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://josh.services/tags/gitops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vcs</title>
-      <link>https://josh.services/tags/vcs/</link>
-      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://josh.services/tags/vcs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cd</title>
       <link>https://josh.services/tags/cd/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
@@ -166,6 +139,33 @@
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://josh.services/tags/window-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://josh.services/tags/git/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gitops</title>
+      <link>https://josh.services/tags/gitops/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/gitops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vcs</title>
+      <link>https://josh.services/tags/vcs/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/vcs/</guid>
       <description></description>
     </item>
     
