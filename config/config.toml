@@ -3,30 +3,30 @@ languageCode = 'en-gb'
 title = 'Dangerous.Tech'
 paginate = 5
 
-[ Params ]
-    env = 'production'
-    title = 'Dangerous.Tech'
-    description = 'Networking, Security and Code'
-    author = 'Josh J'
-    keywords = ['blog', 'devops', 'security']
-    defaultTheme = 'dark'
-    ShowShareButtons = true
-    ShowReadingTime = true
-    displayFullLangName = true
-    ShowPostNavLinks = true
-    ShowBreadCrumbs = true
-    ShowCodeCopyButtons = true
-    ShowToc = true
+[ params ]
+env = 'production'
+title = 'Dangerous.Tech'
+description = 'Networking, Security and Code'
+author = 'Josh J'
+keywords = ['blog', 'devops', 'security']
+defaultTheme = 'dark'
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
 
-    [ homeInfoParams ]
+    [ params.homeInfoParams ]
     Title = "Dangerous.Tech"
     Content = "Welcome to Dangerous.Tech!"
 
-    [[socialIcons]]
+    [[params.socialIcons]]
     name = "github"
     url = "https://github.com/dangeroustech"
 
-    [[socialIcons]]
+    [[params.socialIcons]]
     name = "RSS"
     url = "index.xml"
     
