@@ -13,9 +13,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           repository: dangeroustech/dangeroustech-blog
-          ssh-key: ${{ secrets.GITHUB_DEPLOY_KEY }}
+          token: ${{ secrets.REPO_PAT }}
           submodules: true # Fetch Hugo themes
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
