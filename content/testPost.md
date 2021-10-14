@@ -1,11 +1,18 @@
 ---
+author: "Josh J"
 title: "Test Post"
-url: "/test-post/"
-summary: "A test post"
+date: "2021-10-14"
+description: "A test post"
+tags: []
+ShowToc: true
 ---
 
 ## Secondary Header
 
-with some content
+With some content, and stuff and things
 _and some fancy italics_
 **and some bold shizzle**
+
+---
+
+## a new section
