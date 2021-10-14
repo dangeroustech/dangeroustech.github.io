@@ -26,12 +26,12 @@
     </item>
     
     <item>
-      <title>Running a Script at Login with i3</title>
-      <link>https://josh.services/posts/20200525/runatloginwithi3/</link>
+      <title>Signing Your Git Commits by Default</title>
+      <link>https://josh.services/posts/20200514/signingyourgitcommitsbydefault/</link>
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://josh.services/posts/20200525/runatloginwithi3/</guid>
-      <description>Learn how to standardise your config and run something at startup with i3!</description>
+      <guid>https://josh.services/posts/20200514/signingyourgitcommitsbydefault/</guid>
+      <description>Sign your git commits by default</description>
     </item>
     
     <item>
@@ -59,6 +59,15 @@
       
       <guid>https://josh.services/posts/20200601/setuptraefikondockeramodernreverseproxysolution/</guid>
       <description>Configure Traefik to run in a docker container to provide reverse proxy services for the rest of your containers!</description>
+    </item>
+    
+    <item>
+      <title>Running a Script at Login with i3</title>
+      <link>https://josh.services/posts/20200525/runatloginwithi3/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/posts/20200525/runatloginwithi3/</guid>
+      <description>Learn how to standardise your config and run something at startup with i3!</description>
     </item>
     
   </channel>

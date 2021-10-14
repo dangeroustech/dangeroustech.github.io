@@ -6,11 +6,11 @@
     <description>Recent content in window manager on Dangerous.Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 17 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/tags/window-manager/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/tags/window-manager/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running a Script at Login with i3</title>
       <link>https://josh.services/posts/20200525/runatloginwithi3/</link>
-      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://josh.services/posts/20200525/runatloginwithi3/</guid>
       <description>Learn how to standardise your config and run something at startup with i3!</description>

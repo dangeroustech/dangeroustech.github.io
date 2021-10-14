@@ -32,22 +32,22 @@
     <loc>https://josh.services/tags/traefik/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://josh.services/tags/i3/</loc>
+    <loc>https://josh.services/categories/git/</loc>
+    <lastmod>2021-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/git/</loc>
+    <lastmod>2021-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/gitops/</loc>
     <lastmod>2021-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://josh.services/posts/20210517/learningtoloveyaml_converitngyourtraefiksetupfromcmdlinetoyaml/</loc>
     <lastmod>2021-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://josh.services/categories/linux/</loc>
+    <loc>https://josh.services/posts/20200514/signingyourgitcommitsbydefault/</loc>
     <lastmod>2021-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://josh.services/tags/linux/</loc>
-    <lastmod>2021-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://josh.services/posts/20200525/runatloginwithi3/</loc>
-    <lastmod>2021-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://josh.services/tags/window-manager/</loc>
+    <loc>https://josh.services/tags/vcs/</loc>
     <lastmod>2021-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://josh.services/tags/cd/</loc>
@@ -88,6 +88,21 @@
   </url><url>
     <loc>https://josh.services/posts/20200601/setuptraefikondockeramodernreverseproxysolution/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/i3/</loc>
+    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/categories/linux/</loc>
+    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/linux/</loc>
+    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/posts/20200525/runatloginwithi3/</loc>
+    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/window-manager/</loc>
+    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://josh.services/archive/</loc>
   </url><url>
