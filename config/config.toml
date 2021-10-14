@@ -7,6 +7,8 @@ title = 'Dangerous.Tech'
     author = 'Josh J'
     keywords = ['blog', 'devops', 'security']
     defaultTheme = 'dark'
+    showtoc = true
+    ShowPostNavLinks = true
 
 [ menu ]
     [ main ]
