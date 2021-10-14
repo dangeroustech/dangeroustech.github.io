@@ -79,5 +79,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>container</title>
+      <link>https://josh.services/tags/container/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://josh.services/tags/docker/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>irc</title>
+      <link>https://josh.services/tags/irc/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/irc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>znc</title>
+      <link>https://josh.services/tags/znc/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/tags/znc/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

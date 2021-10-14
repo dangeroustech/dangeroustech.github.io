@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>irc on Dangerous.Tech</title>
+    <link>https://josh.services/tags/irc/</link>
+    <description>Recent content in irc on Dangerous.Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/tags/irc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ZNC &#43; Docker - A Containerized IRC Bouncer</title>
+      <link>https://josh.services/posts/20200608/znc&#43;docker_acontainerizedircbouncer/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/posts/20200608/znc&#43;docker_acontainerizedircbouncer/</guid>
+      <description>Run an IRC bouncer to keep up with chats while you&amp;#39;re AFK</description>
+    </item>
+    
+  </channel>
+</rss>
