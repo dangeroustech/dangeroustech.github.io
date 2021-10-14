@@ -16,5 +16,14 @@
       <description>A test post</description>
     </item>
     
+    <item>
+      <title>Achieving an A Grade with Traefik</title>
+      <link>https://josh.services/posts/testfolder/achievinganagradewithtraefik/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/posts/testfolder/achievinganagradewithtraefik/</guid>
+      <description>Learn how to configure your Traefik instance to be SSL Labs A-Grade worthy</description>
+    </item>
+    
   </channel>
 </rss>

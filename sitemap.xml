@@ -26,6 +26,24 @@
     <loc>https://josh.services/posts/testpost/</loc>
     <lastmod>2021-10-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://josh.services/posts/testfolder/achievinganagradewithtraefik/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/categories/devops/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/reverse-proxy/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/ssl/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/tls/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/traefik/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://josh.services/archive/</loc>
   </url><url>
     <loc>https://josh.services/search/</loc>
