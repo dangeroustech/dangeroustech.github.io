@@ -9,5 +9,7 @@
     <loc>http://josh.services/</loc>
   </url><url>
     <loc>http://josh.services/tags/</loc>
+  </url><url>
+    <loc>http://josh.services/test-post/</loc>
   </url>
 </urlset>
