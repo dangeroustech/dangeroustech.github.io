@@ -125,100 +125,21 @@ if (!doNotTrack) {
     </nav>
 </header>
 <main class="main"> 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>Hi!</h1>
-    </header>
-    <section class="entry-content">
-        <p>Welcome to Dangerous.Tech</p>
-    </section>
-    <footer class="entry-footer">
-        <div class="social-icons">
-    <a href="https://github.com/dangeroustech" target="_blank" rel="noopener noreferrer me" title="Github">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path
-        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-    </path>
-</svg>
-    </a>
-    <a href="index.xml" target="_blank" rel="noopener noreferrer me" title="RSS">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path d="M4 11a9 9 0 0 1 9 9" />
-    <path d="M4 4a16 16 0 0 1 16 16" />
-    <circle cx="5" cy="19" r="1" />
-</svg>
-    </a>
-</div>
-
-    </footer>
-</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>Achieving an A Grade with Traefik
+    <h2>Set Up Traefik on Docker - A Modern Reverse Proxy Solution
     </h2>
   </header>
   <section class="entry-content">
-    <p>In my previous post, I detailed moving your Traefik configuration to a slightly more permanent format (YAML… I know, just go with it). You might have then been tempted to go to SSL Labs and do an SSL Test. What you would have discovered, in that tragic scenario, is a mere B grade!
-“Why, oh why?” I hear you cry, “I did everything right!” Well, technically you did, so don’t feel too bad....</p>
+    <p>For many years, I used NGINX as a reverse proxy. It’s pretty bulletproof as long as you have your configuration set up properly from the get-go. There’s even a number of ways to automatially create new SSL certs for new containers but this mostly has to be done in a separate container itself. This makes the process of upgrading, testing, rolling back, patching and whatnot a bit of a mither. Enter Traefik....</p>
   </section>
-  <footer class="entry-footer">May 24, 2021&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Josh J</footer>
-  <a class="entry-link" aria-label="post link to Achieving an A Grade with Traefik" href="https://josh.services/posts/20210524/achievinganagradewithtraefik/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Learning to Love YAML - Converting Your Traefik Setup From Cmdline into YAML
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>In this post, I shared my Traefik configuration. Back then, I’d just learned about Traefik and followed a few posts to set things up and get them working with all of my containers. Since then, I’ve used Traefik for every new container I’ve set up, I’ve run servers like Minecraft and 7 Days to Die through it, as well as numerous different DevOps-adjacent containers. So whilst I’m no means an expert, I’m definitely a little more adept at some of its configuration nuances (I’ll be publishing something next week about how to globally disable TLS 1....</p>
-  </section>
-  <footer class="entry-footer">May 17, 2021&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Josh J</footer>
-  <a class="entry-link" aria-label="post link to Learning to Love YAML - Converting Your Traefik Setup From Cmdline into YAML" href="https://josh.services/posts/20210517/learningtoloveyaml_converitngyourtraefiksetupfromcmdlinetoyaml/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Running a Script at Login with i3
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>When first moving to i3 as a window manager, you may have relished the opportunity to learn a tonne of new shortcut keys on your journey to being the neckbeardiest of them all (I know I certainly did). At some point along the way, you probably realised that it would be useful to start certain programs/scripts when you first login. As this is linux, there’s about 15 different ways to do this, but I’m going to show you my favourite....</p>
-  </section>
-  <footer class="entry-footer">May 17, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Josh J</footer>
-  <a class="entry-link" aria-label="post link to Running a Script at Login with i3" href="https://josh.services/posts/20200525/runatloginwithi3/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>UPDATE: Jenkins with HTTPS in a Docker Container
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>The previous post on this topic is still relevant, however, since my selection of a new reverse proxy, I felt it necessary to publish an update.
-Assumptions  You know what HTTPS and SSL certificates are/do and how the CA ecosystem works You have a domain that you plan to use for the Jenkins instance and this domain either doesn’t have a CAA record or has one that allows LetsEncrypt You understand the general working of containers and have docker installed on your system....</p>
-  </section>
-  <footer class="entry-footer">June 15, 2020&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Josh J</footer>
-  <a class="entry-link" aria-label="post link to UPDATE: Jenkins with HTTPS in a Docker Container" href="https://josh.services/posts/20200615/updatejenkinswithhttpsinadockercontainer/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>ZNC &#43; Docker - A Containerized IRC Bouncer
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Twitter? Garbage. Facebook? Garbage. Do you enjoy having your data harvested and sold? No? Good. Back in the day, there was this thing called Internet Relay Chat. What if I told you… It still exists! Internet socializing without all the Silicon Valley data theft! But due to how the ecosystem works, any time you’re not actively connected to the server, you don’t receive any messages. This means that you don’t get to see conversations that happen while you’re offline, even if somebody mentions you!...</p>
-  </section>
-  <footer class="entry-footer">June 8, 2020&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Josh J</footer>
-  <a class="entry-link" aria-label="post link to ZNC &#43; Docker - A Containerized IRC Bouncer" href="https://josh.services/posts/20200608/znc&#43;docker_acontainerizedircbouncer/"></a>
+  <footer class="entry-footer">June 1, 2020&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Josh J</footer>
+  <a class="entry-link" aria-label="post link to Set Up Traefik on Docker - A Modern Reverse Proxy Solution" href="https://josh.services/posts/20200601/setuptraefikondockeramodernreverseproxysolution/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="next" href="https://josh.services/page/2/">Next Page »</a>
+    <a class="prev" href="https://josh.services/">« Prev Page</a>
   </nav>
 </footer>
     </main>

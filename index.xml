@@ -26,6 +26,15 @@
     </item>
     
     <item>
+      <title>Running a Script at Login with i3</title>
+      <link>https://josh.services/posts/20200525/runatloginwithi3/</link>
+      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/posts/20200525/runatloginwithi3/</guid>
+      <description>Learn how to standardise your config and run something at startup with i3!</description>
+    </item>
+    
+    <item>
       <title>UPDATE: Jenkins with HTTPS in a Docker Container</title>
       <link>https://josh.services/posts/20200615/updatejenkinswithhttpsinadockercontainer/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
