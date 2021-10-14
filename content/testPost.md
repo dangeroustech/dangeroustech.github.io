@@ -1,6 +1,5 @@
 ---
 title: "Test Post"
-layout: "single"
 url: "/test-post/"
 summary: "A test post"
 ---
