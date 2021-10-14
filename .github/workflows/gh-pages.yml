@@ -26,7 +26,7 @@ jobs:
         run: rm -rf public
 
       - name: Build
-        run: hugo --config config/config.toml #--theme=fresh
+        run: hugo --config config/config.toml --theme=fresh
 
       - name: Create cname file
         run: echo 'new.dangerous.tech' > public/CNAME
