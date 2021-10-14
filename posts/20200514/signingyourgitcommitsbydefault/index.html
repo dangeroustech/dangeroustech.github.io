@@ -219,29 +219,29 @@ if (!doNotTrack) {
 <li>The ability to reach GitHub. This can be from the same machine, or you can be SSHed in, you&rsquo;ll need to copy an exported key from the commandline to a browser window and you don&rsquo;t want to type it all out&hellip;</li>
 </ul>
 <h3 id="1---generate-the-key">1 - Generate the Key<a hidden class="anchor" aria-hidden="true" href="#1---generate-the-key">#</a></h3>
-<p><img loading="lazy" src="/images/20200514/1.jpg" alt="1"  />
+<p><img loading="lazy" src="/images/20200514/1.png" alt="1"  />
 </p>
 <p>Run <code>gpg --full-generate-key</code> to kick off the process. Make sure that you make your key 4096 bits, GitHub won&rsquo;t accept anything less. (<em>I believe that all <code>gpg</code> commands can be substituted for <code>gpg2</code> from this point onwards but I haven&rsquo;t fully tested that so YMMV</em>)</p>
 <h3 id="2---export-the-key">2 - Export the Key<a hidden class="anchor" aria-hidden="true" href="#2---export-the-key">#</a></h3>
-<p><img loading="lazy" src="/images/20200514/2.jpg" alt="2"  />
+<p><img loading="lazy" src="/images/20200514/2.png" alt="2"  />
 </p>
 <p>Now we need to export the key in a format that we can give to GitHub.</p>
-<p><img loading="lazy" src="/images/20200514/3.jpg" alt="3"  />
+<p><img loading="lazy" src="/images/20200514/3.png" alt="3"  />
 </p>
 <p><code>gpg --list-secret-keys --keyid-format LONG</code> will give you a list of your secret keys, copy the ID in the same place as the red box in the screenshot and run the <code>gpg --armor --export YOURIDHERE</code> to get the GitHubbable part. Copy this key, all the way from <code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code> to <code>-----END PGP PUBLIC KEY BLOCK-----</code></p>
 <h3 id="3---upload-key-to-github">3 - Upload Key to GitHub<a hidden class="anchor" aria-hidden="true" href="#3---upload-key-to-github">#</a></h3>
 <p>This is assuming that you&rsquo;re using GitHub here, you would have to upload this in basically the same format to BitBucket or wherever else.</p>
 <p>Head to <a href="https://github.com/settings/keys">https://github.com/settings/keys</a> and locate the GPG keys section. Click New GPG key.</p>
-<p><img loading="lazy" src="/images/20200514/6.jpg" alt="6"  />
+<p><img loading="lazy" src="/images/20200514/6.png" alt="6"  />
 </p>
 <p>Paste in the exported key from the previous command into the box and click Add GPG key once again.</p>
-<p><img loading="lazy" src="/images/20200514/7.jpg" alt="7"  />
+<p><img loading="lazy" src="/images/20200514/7.png" alt="7"  />
 </p>
 <p>Verify that the key is now showing in the GPG keys list and has the correct email address associated with it.</p>
-<p><img loading="lazy" src="/images/20200514/8.jpg" alt="8"  />
+<p><img loading="lazy" src="/images/20200514/8.png" alt="8"  />
 </p>
 <h3 id="4---complete-git-config">4 - Complete Git Config<a hidden class="anchor" aria-hidden="true" href="#4---complete-git-config">#</a></h3>
-<p><img loading="lazy" src="/images/20200514/4.jpg" alt="4"  />
+<p><img loading="lazy" src="/images/20200514/4.png" alt="4"  />
 </p>
 <p>Check that you don&rsquo;t already have a .gitconfig file using <code>cat</code>. If you do, you can probably skip some of these config steps. The last 2 are the key ones here. Use the same Key ID and for the signing key that you used in the export command from step 2.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git config --global user.name <span style="color:#e6db74">&#34;your name&#34;</span>
@@ -249,7 +249,7 @@ git config --global user.email your@email.address
 git config --global user.signingkey YOURIDHERE
 git config --global commit.gpgsign true
 </code></pre></div><h3 id="5---do-all-the-git-things">5 - Do All The git Things<a hidden class="anchor" aria-hidden="true" href="#5---do-all-the-git-things">#</a></h3>
-<p><img loading="lazy" src="/images/20200514/5.jpg" alt="5"  />
+<p><img loading="lazy" src="/images/20200514/5.png" alt="5"  />
 </p>
 <p>Commit, Commit, Commit! You can verify the commit using the <code>git verify-commit commitid</code></p>
 
