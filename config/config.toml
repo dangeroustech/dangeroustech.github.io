@@ -11,14 +11,18 @@ title = 'Dangerous.Tech'
     ShowPostNavLinks = true
 
 [[ menu.main ]]
-    name = 'categories'
-    url = '/categories/'
+    name = 'Archive'
+    url = '/archive/'
     weight = 10
 [[ menu.main ]]
-    name = 'tags'
-    url = '/tags/'
+    name = 'Categories'
+    url = '/categories/'
     weight = 20
 [[ menu.main ]]
-    name = 'search'
-    url = '/search/'
+    name = 'Tags'
+    url = '/tags/'
     weight = 30
+[[ menu.main ]]
+    name = 'Search'
+    url = '/search/'
+    weight = 40
