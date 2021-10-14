@@ -1,14 +1,35 @@
 baseURL = 'https://josh.services/'
 languageCode = 'en-gb'
 title = 'Dangerous.Tech'
+paginate = 5
+
 [ Params ]
+    env = 'production'
     title = 'Dangerous.Tech'
     description = 'Networking, Security and Code'
     author = 'Josh J'
     keywords = ['blog', 'devops', 'security']
     defaultTheme = 'dark'
-    showtoc = true
+    ShowShareButtons = true
+    ShowReadingTime = true
+    displayFullLangName = true
     ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+    ShowToc = true
+
+    [ homeInfoParams ]
+    Title = "Dangerous.Tech"
+    Content = "Welcome to Dangerous.Tech!"
+
+    [[socialIcons]]
+    name = "github"
+    url = "https://github.com/dangeroustech"
+
+    [[socialIcons]]
+    name = "RSS"
+    url = "index.xml"
+    
 
 [[ menu.main ]]
     name = 'Archive'
