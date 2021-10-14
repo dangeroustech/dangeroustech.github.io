@@ -16,5 +16,23 @@
       <description>Learn how to configure your Traefik instance to be SSL Labs A-Grade worthy</description>
     </item>
     
+    <item>
+      <title>Learning to Love YAML - Converting Your Traefik Setup From Cmdline into YAML</title>
+      <link>https://josh.services/posts/20210517/learningtoloveyaml_converitngyourtraefiksetupfromcmdlinetoyaml/</link>
+      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/posts/20210517/learningtoloveyaml_converitngyourtraefiksetupfromcmdlinetoyaml/</guid>
+      <description>Migrate your Traefik setup into YAML files for an easier to manage reverse proxy experience!</description>
+    </item>
+    
+    <item>
+      <title>UPDATE: Jenkins with HTTPS in a Docker Container</title>
+      <link>https://josh.services/posts/20200615/updatejenkinswithhttpsinadockercontainer/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/posts/20200615/updatejenkinswithhttpsinadockercontainer/</guid>
+      <description>An Update on my Jenkins/Docker experience</description>
+    </item>
+    
   </channel>
 </rss>
