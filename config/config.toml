@@ -10,13 +10,15 @@ title = 'Dangerous.Tech'
     showtoc = true
     ShowPostNavLinks = true
 
-#[ menu ]
-#    [ main ]
-#        [ identifier.categories ]
-#        name = 'categories'
-#        url = '/categories/'
-#        weight = 10
-#        [ identifier.tags ]
-#        name = 'tags'
-#        url = '/tags/'
-#        weight = 20
+[[ menu.main ]]
+    name = 'categories'
+    url = '/categories/'
+    weight = 10
+[[ menu.main ]]
+    name = 'tags'
+    url = '/tags/'
+    weight = 20
+[[ menu.main ]]
+    name = 'search'
+    url = '/search/'
+    weight = 30
