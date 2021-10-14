@@ -1,7 +1,8 @@
 baseURL = 'http://josh.services/'
 languageCode = 'en-gb'
+title = 'Dangerous.Tech'
 [ Params ]
-    title = 'Dangerous.Tech'
+    name = 'Dangerous.Tech'
     description = 'Networking, Security and Code'
     author = 'Josh J'
     keywords = ['blog', 'devops', 'security']
