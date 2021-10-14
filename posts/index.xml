@@ -80,12 +80,12 @@
     </item>
     
     <item>
-      <title></title>
+      <title>Docker Routing - Incorrect IP Address Detected by Traefik</title>
       <link>https://josh.services/posts/20200505/dockerrouting_incorrectipaddressdetectedbytraefik/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://josh.services/posts/20200505/dockerrouting_incorrectipaddressdetectedbytraefik/</guid>
-      <description>Docker Routing - Incorrect IP Address Detected by Traefik The Problem Let&amp;rsquo;s say you have a container, say for example that it&amp;rsquo;s a container you rely on to store and sync a lot of your data. Say that one day, you notice that all of your devices stop syncing and throw time out errors. Say that you&amp;rsquo;re quite frustrated with this because to a certain extent, this container stack was supposed to be set and forget.</description>
+      <description>Diagnosing some interesting Traefik routing issues!</description>
     </item>
     
   </channel>

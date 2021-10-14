@@ -34,5 +34,14 @@
       <description>Configure Traefik to run in a docker container to provide reverse proxy services for the rest of your containers!</description>
     </item>
     
+    <item>
+      <title>Docker Routing - Incorrect IP Address Detected by Traefik</title>
+      <link>https://josh.services/posts/20200505/dockerrouting_incorrectipaddressdetectedbytraefik/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://josh.services/posts/20200505/dockerrouting_incorrectipaddressdetectedbytraefik/</guid>
+      <description>Diagnosing some interesting Traefik routing issues!</description>
+    </item>
+    
   </channel>
 </rss>
