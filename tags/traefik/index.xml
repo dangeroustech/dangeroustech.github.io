@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/tags/traefik/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Achieving an A Grade with Traefik</title>
-      <link>https://josh.services/posts/testfolder/achievinganagradewithtraefik/</link>
+      <link>https://josh.services/posts/20210524/achievinganagradewithtraefik/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://josh.services/posts/testfolder/achievinganagradewithtraefik/</guid>
+      <guid>https://josh.services/posts/20210524/achievinganagradewithtraefik/</guid>
       <description>Learn how to configure your Traefik instance to be SSL Labs A-Grade worthy</description>
     </item>
     
