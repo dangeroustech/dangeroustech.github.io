@@ -1,8 +1,8 @@
 ---
 title: "Archive"
 layout: "archives"
-url: "/archives/"
-summary: "archives"
+url: "/archive/"
+summary: "archive"
 ---
 
 ## Testing2
