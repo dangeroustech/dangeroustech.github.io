@@ -1,4 +1,4 @@
-baseURL = 'http://josh.services/'
+baseURL = 'https://josh.services/'
 languageCode = 'en-gb'
 title = 'Dangerous.Tech'
 [ Params ]
