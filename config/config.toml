@@ -3,4 +3,5 @@ languageCode = 'en-gb'
 title = 'Dangerous.Tech'
 description = 'Networking, Security and Code'
 author = 'Josh J'
+keywords = ['blog', 'devops', 'security']
 defaultTheme = 'dark'
