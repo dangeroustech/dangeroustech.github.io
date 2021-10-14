@@ -14,6 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
+          repository: 'https://github.com/dangeroustech/dangeroustech-blog'
           submodules: true # Fetch Hugo themes
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
@@ -23,7 +24,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Clean public directory
-        run: rm -rf public
+        run: tree && rm -rf public
 
       - name: Build
         run: hugo --config config/config.toml --theme PaperMod
