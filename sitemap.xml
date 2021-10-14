@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://josh.services/archive/</loc>
+    <loc>https://josh.services/archive/</loc>
   </url><url>
-    <loc>http://josh.services/categories/</loc>
+    <loc>https://josh.services/categories/</loc>
   </url><url>
-    <loc>http://josh.services/</loc>
+    <loc>https://josh.services/</loc>
   </url><url>
-    <loc>http://josh.services/tags/</loc>
+    <loc>https://josh.services/tags/</loc>
   </url><url>
-    <loc>http://josh.services/test-post/</loc>
+    <loc>https://josh.services/test-post/</loc>
   </url>
 </urlset>
