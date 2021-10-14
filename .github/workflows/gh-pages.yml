@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: 'https://github.com/dangeroustech/dangeroustech-blog'
+          repository: dangeroustech/dangeroustech-blog
           submodules: true # Fetch Hugo themes
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
