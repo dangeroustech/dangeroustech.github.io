@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Dangerous.Tech</title>
-    <link>https://josh.services/</link>
-    <description>Recent content on Dangerous.Tech</description>
+    <title>Posts on Dangerous.Tech</title>
+    <link>https://josh.services/posts/</link>
+    <description>Recent content in Posts on Dangerous.Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 14 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test Post</title>
       <link>https://josh.services/posts/testpost/</link>
@@ -15,8 +15,6 @@
       <guid>https://josh.services/posts/testpost/</guid>
       <description>A test post</description>
     </item>
-    
-    
     
   </channel>
 </rss>
