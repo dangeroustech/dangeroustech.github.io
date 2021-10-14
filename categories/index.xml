@@ -6,16 +6,7 @@
     <description>Recent content in Categories on Dangerous.Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 14 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>test</title>
-      <link>https://josh.services/categories/test/</link>
-      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://josh.services/categories/test/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DevOps</title>
       <link>https://josh.services/categories/devops/</link>

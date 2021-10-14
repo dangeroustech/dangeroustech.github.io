@@ -2,40 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://josh.services/categories/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://josh.services/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://josh.services/tags/icles/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://josh.services/posts/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://josh.services/tags/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://josh.services/tags/test/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://josh.services/categories/test/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://josh.services/posts/testpost/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://josh.services/posts/testfolder/achievinganagradewithtraefik/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://josh.services/categories/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://josh.services/categories/devops/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/posts/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://josh.services/tags/reverse-proxy/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://josh.services/tags/ssl/</loc>
+    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://josh.services/tags/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://josh.services/tags/tls/</loc>

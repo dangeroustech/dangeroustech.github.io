@@ -6,25 +6,7 @@
     <description>Recent content in Tags on Dangerous.Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 14 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>icles</title>
-      <link>https://josh.services/tags/icles/</link>
-      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://josh.services/tags/icles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://josh.services/tags/test/</link>
-      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://josh.services/tags/test/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josh.services/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>reverse proxy</title>
       <link>https://josh.services/tags/reverse-proxy/</link>
