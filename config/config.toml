@@ -7,3 +7,14 @@ title = 'Dangerous.Tech'
     author = 'Josh J'
     keywords = ['blog', 'devops', 'security']
     defaultTheme = 'dark'
+
+[ menu ]
+    [ main ]
+        [ identifier.categories ]
+        name = 'categories'
+        url = '/categories/'
+        weight = 10
+        [ identifier.tags ]
+        name = 'tags'
+        url = '/tags/'
+        weight = 20
