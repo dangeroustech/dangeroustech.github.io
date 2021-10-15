@@ -50,3 +50,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           force-bump-patch-version: true
           changelog-generator-opt: "emojis=true"
+          update-file: CHANGELOG.md
