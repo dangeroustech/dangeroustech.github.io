@@ -77,10 +77,10 @@
     <loc>https://josh.services/tags/i3/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://josh.services/categories/linux/</loc>
+    <loc>https://josh.services/tags/linux/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://josh.services/tags/linux/</loc>
+    <loc>https://josh.services/categories/linux/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://josh.services/posts/20200525/runatloginwithi3/</loc>
@@ -89,10 +89,10 @@
     <loc>https://josh.services/tags/window-manager/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://josh.services/categories/git/</loc>
+    <loc>https://josh.services/tags/git/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://josh.services/tags/git/</loc>
+    <loc>https://josh.services/categories/git/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://josh.services/tags/gitops/</loc>
