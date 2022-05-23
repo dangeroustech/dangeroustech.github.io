@@ -6,7 +6,7 @@ on:
       commit_sha:
         description: 'Triggering SHA'
         required: true
-        default: "${{GITHUB_SHA}}"
+        default: "$GITHUB_SHA"
   push:
     branches:
       - main
