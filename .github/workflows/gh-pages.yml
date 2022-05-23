@@ -35,7 +35,7 @@ jobs:
         run: hugo --minify --theme PaperMod
 
       - name: Create cname file
-        run: echo 'josh.services' > public/CNAME
+        run: echo 'dangerous.tech' > public/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
