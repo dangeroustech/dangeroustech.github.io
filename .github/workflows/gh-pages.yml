@@ -38,7 +38,7 @@ jobs:
         run: echo 'dangerous.tech' > public/CNAME
 
       - name: Create Google Adsense file
-        run: echo 'google.com, pub-3139375174722237, DIRECT, f08c47fec0942fa0' > ads.txt
+        run: echo 'google.com, pub-3139375174722237, DIRECT, f08c47fec0942fa0' > public/ads.txt
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
