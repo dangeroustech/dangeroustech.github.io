@@ -2,10 +2,13 @@ name: github pages
 
 on:
   workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: 'Triggering SHA'
+        required: true
   push:
     branches:
       - main
-  pull_request:
 
 jobs:
   deploy:
