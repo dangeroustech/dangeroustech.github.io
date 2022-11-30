@@ -6,7 +6,7 @@
 </span></span><span style=display:flex><span>  <span style=color:#f92672>file</span>:
 </span></span><span style=display:flex><span>    <span style=color:#f92672>filename</span>: <span style=color:#ae81ff>/etc/traefik/dynamic.yml</span>
 </span></span></code></pre></div><p>The final step is to add this to our <code>docker-compose.yml</code> file so that the container has access to this file. Again, see the bottom of the post for my full file.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>volumes</span>:
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;./dynamic.yml:/etc/traefik/dynamic.yml&#34;</span>
+</span></span><span style=display:flex><span>  - <span style=color:#e6db74>&#34;./dynamic.yml:/etc/traefik/dynamic.yml&#34;</span>
 </span></span></code></pre></div><p>Now, we&rsquo;re ready to add some config to <code>dynamic.yml</code> file!</p><h2 id=the-dynamic-file>The Dynamic File<a hidden class=anchor aria-hidden=true href=#the-dynamic-file>#</a></h2><p><em>It&rsquo;s worth mentioning here that I haven&rsquo;t yet seen a successful way to do this via the cmdline and trust me, I&rsquo;ve looked&mldr; This was the impetus for me converting my static config to a YAML file in the first place, so just trust me on that one!</em></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>tls</span>:
 </span></span><span style=display:flex><span>  <span style=color:#f92672>options</span>:
 </span></span><span style=display:flex><span>    <span style=color:#f92672>default</span>:
@@ -74,10 +74,10 @@
 </span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;80:80&#34;</span>
 </span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;443:443&#34;</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>volumes</span>:
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;/var/run/docker.sock:/var/run/docker.sock&#34;</span>
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;certs:/letsencrypt&#34;</span>
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;./traefik.yml:/etc/traefik/traefik.yml&#34;</span>
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;./dynamic.yml:/etc/traefik/dynamic.yml&#34;</span>
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;/var/run/docker.sock:/var/run/docker.sock&#34;</span>
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;certs:/letsencrypt&#34;</span>
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;./traefik.yml:/etc/traefik/traefik.yml&#34;</span>
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;./dynamic.yml:/etc/traefik/dynamic.yml&#34;</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>restart</span>: <span style=color:#ae81ff>unless-stopped</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>networks</span>:
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>proxy</span>

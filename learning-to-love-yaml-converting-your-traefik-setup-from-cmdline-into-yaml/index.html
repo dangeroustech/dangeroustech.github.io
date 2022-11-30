@@ -51,8 +51,8 @@
 </span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;80:80&#34;</span>
 </span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;443:443&#34;</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>volumes</span>:
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;/var/run/docker.sock:/var/run/docker.sock&#34;</span>
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;certs:/letsencrypt&#34;</span>
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;/var/run/docker.sock:/var/run/docker.sock&#34;</span>
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;certs:/letsencrypt&#34;</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>restart</span>: <span style=color:#ae81ff>unless-stopped</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>networks</span>:
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>proxy</span>
@@ -82,9 +82,9 @@
 </span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;80:80&#34;</span>
 </span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;443:443&#34;</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>volumes</span>:
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;/var/run/docker.sock:/var/run/docker.sock&#34;</span>
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;certs:/letsencrypt&#34;</span>
-</span></span><span style=display:flex><span>        - <span style=color:#e6db74>&#34;./traefik.yml:/etc/traefik/traefik.yml&#34;</span>
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;/var/run/docker.sock:/var/run/docker.sock&#34;</span>
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;certs:/letsencrypt&#34;</span>
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;./traefik.yml:/etc/traefik/traefik.yml&#34;</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>restart</span>: <span style=color:#ae81ff>unless-stopped</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>networks</span>:
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>proxy</span>
