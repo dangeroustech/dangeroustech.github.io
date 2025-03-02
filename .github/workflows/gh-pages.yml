@@ -52,6 +52,6 @@ jobs:
         id: semrel
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          force-bump-patch-version: true
+          force-bump-patch-version: false
           changelog-generator-opt: "emojis=true"
           changelog-file: true
